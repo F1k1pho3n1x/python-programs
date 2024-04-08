@@ -246,7 +246,7 @@ df = pd.read_csv("calories_fixed.csv")
 df.plot()
 plt.show()
 ```
-![image info](./images/plot1.png)
+![image info](./plot1.png)
  In order to create a scatter plot we add the argument `kind = "scatter"`. However, we also need to assign which values are going on the x-axis and which on the y-axis.
 ```python
 import pandas as pd
